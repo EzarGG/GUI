@@ -7,7 +7,7 @@ CreateOnboarding({
         musicEnabled = musicEnabled
 
         -- Load EZR features
-        local EZR = loadstring(game:HttpGet("https://yourdomain.com/EZR_Compatible.lua"))()
+        local EZR = loadstring(game:HttpGet("https://raw.githubusercontent.com/EzarGG/GUI/refs/heads/main/EZR.lua"))()
 
         -- Example: Add EZR toggles to your UI
         -- (This depends on your layout's API)
